@@ -2,6 +2,7 @@ class RustThanos < Formula
   desc "An efficient Minecraft Java world optimization tool to detect and remove unused chunks"
   homepage "https://github.com/OrzMC/OrzMCBackup"
   version "0.0.4"
+  # TEMP-MARKER: 用于验证流水线能否覆盖本文件
 
   on_macos do
     if Hardware::CPU.arm?
