@@ -4,7 +4,8 @@
 
 ```bash
 brew tap orzmc/core
-brew install rust-thanos        # 例：Rust 版世界优化 CLI
+brew trust orzmc/core          # 新版 Homebrew 对第三方 tap 需要显式信任
+brew install rust-thanos       # 例：Rust 版世界优化 CLI
 ```
 
 ## 已发布
